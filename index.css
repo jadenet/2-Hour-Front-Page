@@ -1,0 +1,128 @@
+:root {
+    --primary: #ffa500;
+    --secondary: #ffb733;
+    --white: #ffffff;
+    --black: #0d0d0d;
+}
+
+body {
+    margin: 0%;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-around;
+    height: 1rem;
+    padding: 3%;
+}
+
+.topbar a {
+    text-align: center;
+}
+
+.title-link {
+    text-align: left !important;
+    flex-grow: 0.7;
+}
+
+.front-div {
+    position: relative;
+    height: 30rem;
+    padding: 2%;
+}
+
+.front-image {
+    position: absolute;
+    right: 9.2rem;
+    width: 50rem;
+    height: 25rem;
+}
+
+.front-heading {
+    position: absolute;
+    left: 8rem;
+    top: 8rem;
+}
+
+.front-span {
+   color: var(--white); 
+}
+
+.top-picks-div {
+    height: 20rem;
+    padding: 2%;
+    background-color: var(--secondary);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.top-picks-heading {
+    text-align: center;
+    flex-grow: 0.5;
+}
+
+.top-picks-block {
+    display: block;
+    padding: 1%;
+    width: 18rem;
+    height: 15rem;
+    text-align: center;
+    background-color: var(--white);
+}
+
+.top-picks-image {
+    width: 50%;
+    height: 40%;
+}
+
+.add-to-cart-button {
+    background-color: var(--primary);
+}
+
+.reasons-div {
+    height: 20rem;
+    padding: 2%;
+}
+
+.reasons-heading {
+    text-align: center;
+}
+
+.reasons-blocks {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+
+.reason-block {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    justify-content: center;
+    padding: 1%;
+    width: 20rem;
+    height: 15rem;
+    text-align: center;
+}
+
+.reason-image {
+    width: 50%;
+    height: 40%;
+}
+
+.bottom-div {
+    position: relative;
+    display: block;
+    min-height: 20rem;
+    background-color: var(--black);
+}
+
+.bottom-title {
+    position: absolute;
+    text-align: center;
+    left: 40%;
+    bottom: 0%;
+}
