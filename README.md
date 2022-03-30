@@ -1,0 +1,1 @@
+I've challenged myself to do a front page of an online candle shop in 2 hours (though ended up working on it for longer). I intentionally prevented myself from using Javascript or frameworks to focus on HTML and CSS. This is technically the first website I've made and I'm kind of proud of it. :>
